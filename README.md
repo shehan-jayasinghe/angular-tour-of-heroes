@@ -1,27 +1,39 @@
-# AngularTourOfHeroes
+# Angular Tour of Heroes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.4.
+A classic Angular learning project demonstrating core Angular application concepts.
 
-## Development server
+## Overview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The project is based on the Angular Tour of Heroes tutorial and demonstrates components, templates, services, routing, forms, HTTP communication, and application state through a small hero-management application.
 
-## Code scaffolding
+## Development
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Install dependencies and start the development server:
 
-## Build
+```bash
+npm install
+ng serve
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Open `http://localhost:4200/` in a browser. The development server reloads when source files change.
 
-## Running unit tests
+## Common Commands
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+ng serve
+ng build
+ng test
+ng generate component component-name
+```
 
-## Running end-to-end tests
+## Project Structure
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+The application uses Angular components and services, with routing and supporting models/data to implement the Tour of Heroes workflow.
 
-## Further help
+## Learning Goals
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+This project is useful for understanding Angular component architecture, dependency injection, routing, forms, services, and HTTP-based data access.
+
+## Notes
+
+The repository was originally generated with Angular CLI. Some commands and dependencies may reflect the Angular version used by the project, so use the repository's installed CLI/package versions when developing.
